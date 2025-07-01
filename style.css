@@ -133,3 +133,10 @@ opacity: 0.6;
 background: rgba(82, 195, 3, 0.15);
 }
 
+.container .main-button{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
