@@ -34,7 +34,7 @@ border: none;
     width: 818px;
     margin: 0 auto;
 }
-#hero .hero-content .subtitel{
+#hero .hero-content .subtitle{
     color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 22px;
@@ -46,7 +46,7 @@ opacity: 0.8;
 margin-bottom: 10px;
 
 }
-#hero .hero-content .titel{
+#hero .hero-content .title{
     color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 36px;
@@ -67,4 +67,9 @@ text-align: center;
 opacity: 0.7;
 margin-bottom: 32px;
 
+}
+
+#card-box {
+    width: 884px;
+    margin: 50px, auto;
 }
