@@ -69,7 +69,58 @@ margin-bottom: 32px;
 
 }
 
-#card-box {
-    width: 884px;
-    margin: 50px, auto;
+#card-box{
+    width: 1056px;
+    margin: 100px auto;
 }
+
+#card-box .info{
+
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+
+.card-container{
+    margin-top: 32px;
+}
+
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop{
+    background-color: aqua;
+}
+
