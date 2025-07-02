@@ -145,7 +145,10 @@ background: rgba(82, 195, 3, 0.15);
     background: url(./assets/social-bg.png);
     background-size: cover; 
      background-position: center; 
-     display: flex; 
+     
+}
+#social-media .container{
+    display: flex; 
      justify-content: center; 
      align-items: center;
 }
@@ -153,8 +156,8 @@ background: rgba(82, 195, 3, 0.15);
     height: 260px;
     margin-bottom: 137px;
 }
-#social-media .media-containr .title{
-   margin-bottom: 18px;
+#social-media .container .media-containr .title{
+   margin-top: 120px;
     color: rgb(16, 16, 16);
 font-family: Work Sans;
 font-size: 36px;
@@ -164,7 +167,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 
-#social-media .media-containr .subtitle{
+#social-media .container .media-containr .subtitle{
     
     color: rgb(16, 16, 16);
 font-family: Work Sans;
@@ -192,5 +195,14 @@ letter-spacing: 0%;
 text-align: center;
 padding: 10px;
 opacity: 0.7;
+
+}
+#social-media .icon{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+#social-media .icon{
+      
 
 }
